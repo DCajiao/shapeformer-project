@@ -1,0 +1,25 @@
+# Virtual Environment
+.env
+.venv/
+venv/
+*.lock
+
+# Python cache
+__pycache__/
+
+# API output folder
+test/
+
+# Temporary files
+temp/
+uploads/
+
+# Local testing/development files
+*.csv
+*.xlsx
+*.pdf
+*.log
+credentials/
+
+# Server to expose files as static content
+server_apache/
